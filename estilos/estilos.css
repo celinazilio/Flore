@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    text-indent: -666em;
+    background-image: url(../img/flore.png);
+    width: 250px;
+    height: 100px;
+
+}
+h2 {
+       color: cornflowerblue;
+                font-weight: bolder;
+            
+}
+
+.conoce h2 {
+    color:cornflowerblue;
+}
+img {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-item {
+    padding: 0 11px;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: darkslategray;
+}
+
+.navbar {
+    font-weight: bolder;
+}
+
+a {
+    color: #97A7C3;
+
+}
+
+.titulo h2 {
+    font-weight: bolder;
+    color: #97A7C3;
+}
+
+.texto {
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
+
+strong {
+        font-weight: bolder;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.cita {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.encargar {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding-top: 5%;
+}
+
+.app {
+    margin: auto;
+}
+
+.personal {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer {
+    background-color:cornflowerblue ;
+    margin-top: 5%;
+    padding: 4%;
+    color: aliceblue;
+}
+
+funo {
+
+}
+
+
+.ayuda {
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.encargar img {
+    margin-left: 10%;
+}
+
+
+/* instagram */
+.fa-instagram {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* whatsapp */
+.fa-whatsapp {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+/* instagram */
+.fa-instagram:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+/* whatsapp */
+.fa-whatsapp:hover {
+    background-color: skyblue;
+    color: white;
+
+}
+
+/* facebook */
+.fa-facebook {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* twitter */
+.fa-twitter {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+/* facebook */
+.fa-facebook:hover {
+    background-color: skyblue;
+    color: gray;
+}
+
+/* twitter */
+.fa-twitter:hover {
+    background-color: skyblue;
+    color: gray;
+
+}
+
+.ico {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+
+.app {
+    clear: both;
+}
+
+.store {
+    display: flex;
+    flex: wrap;
+}
+
+
+.pleno {
+    background: #636;
+    height: 50vh;
+}
+
+.fija {
+    position: fixed;
+    z-index: 2;
+    top: 400px;
+    left: 50px;
+    transform-origin: left bottom;
+}
+
+
+@media screen and (min-width: 723px) {
+
+
+    @media screen and (min-width: 1002px) {
+        .texto h2 {
+            font-size: 5em;
+            color: cornflowerblue;
+                font-weight: bolder;
+            
+        }
+
+        .texto {
+            width: 40%;
+            float: left;
+        }
+
+        .img {
+            width: 40%;
+            float: left;
+        }
+
+
+        .conoce {
+            width: 60%;
+            margin: auto;
+        }
+
+
+        .conoce h2 {
+            font-size: 3em;
+        }
+
+        .conoce p {
+            text-align: center;
+            display: inline;
+        }
+
+        .cita {
+            float: left;
+            width: 40%;
+        }
+
+
+        .form {
+            width: 50%;
+        }
+
+        .form {
+            margin: auto;
+        }
+
+
+        .app {
+            width: 60%;
+        }
+
+        .imgconoce {
+            float: left;
+            clear: left;
+        }
+
+    
+}
